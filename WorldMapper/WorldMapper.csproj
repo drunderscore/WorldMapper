@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+        <HintPath>..\..\tshock_test\Newtonsoft.Json.dll</HintPath>
+      </Reference>
+      <Reference Include="OTAPI, Version=1.4.2.3, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\tshock_test\OTAPI.dll</HintPath>
+      </Reference>
+      <Reference Include="TerrariaServer, Version=1.4.2.3, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\tshock_test\TerrariaServer.exe</HintPath>
+      </Reference>
+      <Reference Include="TShockAPI, Version=4.5.4.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\tshock_test\ServerPlugins\TShockAPI.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
